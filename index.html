@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+      <div class="container-fluid" >
+        <a class="navbar-brand" href="index.html"><img style="height: 40px; width: 100px;"  src="logo.png" ></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" style="display: flex; justify-content:space-between;" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Products</a>
+            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="#">About us</a>
+            
+            
+          </div>
+          <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+                <a href="#"><button class="login">Login</button></a>
+                <button class="shop-cart"><img style="height:2rem; width:4rem;" src="https://svgsilh.com/svg_v2/304843.svg" alt=""></button>
+              </form>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </nav>
+    <div style="height:43rem; " id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="1.jpg" style="height:43rem; width: 95vw;" class="d-block w-100" alt="..." />
+          <div style="background-color:rgba(0,0, 0, 0.5);  " class="carousel-caption d-none d-md-block">
+            <h5 sty>Vegetable</h5>
+            <p>Freshy picked veggies at your doorsteps ..</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img style="height:43rem ; width: 95vw;" src="2.jpg"  class="d-block w-100" alt="..." />
+          <div style="background-color:rgba(0,0, 0, 0.5); " class="carousel-caption d-none d-md-block">
+            <h5>groceries</h5>
+            <p>All the groceries that you might need ...</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img style="height:43rem; width: 95vw;" src="3.jpg"   class="d-block w-100" alt="..." />
+          <div  style="background-color:rgba(0,0, 0, 0.5);" class="carousel-caption d-none d-md-block">
+            <h5>Daily Items</h5>
+            <p>All the daily household items ...</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+<div class="best-sellers">
+  <h3>Our Best sellers</h3>
+    <div  class="card-main">
+      <div class="card" style="width:23%">
+        <img src="ghee.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h4>100% Desi Ghee</h4>
+          <p class="card-text">
+           " Embrace tradition, savor purity: Taste the richness of desi ghee..."
+          </p>
+        </div>
+      </div>
+      <div class="card" style="width:23%">
+        <img src="chhurpi.jpg" style="height: auto; width: auto;" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h4>Himalayan Yak Chhurpi</h4>
+          <p class="card-text">
+           
+"Savor Himalayan heritage: Experience the essence of Chhurpi."
+          </p>
+        </div>
+      </div>
+      <div class="card" style="width:23%">
+        <img src="gundruk.webp" class="card-img-top" alt="..." />
+        <div style="margin: 50px;" class="card-body ">
+          <h4>Homemade Gundruk</h4>
+          <p class="card-text">
+       
+"Preserving tradition, nurturing flavor: Discover the tang of Gundruk."
+          </p>
+        </div>
+      </div>
+      <div class="card" style="width:23%">
+        <img src="hing.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h4>Homemade Hing</h4>
+          <p class="card-text">
+            "Unlocking aroma, enhancing taste: Delight in the essence of Hing."
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+     
+    <div class="Items">
+      <h2>Our Products</h2>
+      <div class="Item-card">
+        <div class="card" style="width: 20rem;">
+          <img class="card-img-top" src="ghee.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">100% Desi Ghee</h5>
+            <p class="card-text">Embrace tradition, savor purity: Taste the richness of desi ghee...</p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            
+          </div>
+        </div>
+
+        <div class="card" style="width: 20rem;">
+          <img class="card-img-top" src="chhurpi.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Himalayan Yak Chhurpi</h5>
+            <p class="card-text">Savor Himalayan heritage: Experience the essence of Chhurpi..</p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            
+          </div>
+        </div>
+
+        <div class="card" style="width: 20rem; justify-content: center;">
+          <img style="margin-top: 4rem; margin-left: .5rem; width:19rem;" class="card-img-top" src="gundruk.webp" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Homemade Gundruk</h5>
+            <p class="card-text">Preserving tradition, nurturing flavor: Discover the tang of Gundruk.</p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            
+          </div>
+        </div>
+
+
+        <div class="card" style="width: 20rem;">
+          <img class="card-img-top" src="hing.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Homemade Hing</h5>
+            <p class="card-text">Unlocking aroma, enhancing taste: Delight in the essence of Hing.</p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            
+          </div>
+        </div>
+
+
+        <div class="card" style="width: 20rem;">
+          <img style="margin-top: 4rem; margin-left: .5rem; width:19rem;" class="card-img-top" src="1.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Fresh Vegetable</h5>
+            <p class="card-text">Handpicked veggies from your local farmers..</p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            
+          </div>
+        </div>
+
+
+        <div class="card" style="width: 20rem;">
+          <img class="card-img-top" src="https://www.thegundruk.com/wp-content/uploads/2016/11/Tomato-pickle-with-radish-seeds-and-spices-under-sunlight-for-fermentation.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Homemade pickle</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            
+          </div>
+        </div>
+
+    </div>
+    
+    </div>
+    
+   
+
+
+<div class="footer">
+    <section class="contact-area" id="contact">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-6 offset-lg-3">
+                  <div class="contact-content text-center">
+                      <a href="#"><img src="logo.png" alt="logo"></a>
+                      <p>Bringing you the freshest local produce and green vegetables straight to your table. </p>
+                      <div class="hr"></div>
+                      <h6>Kathmandu,Nepal</h6>
+                      <h6>01-23457<span>|</span>98789088</h6>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="payment">
+        <h5>Pay via :</h5>
+        <a href="https://esewa.com.np/#/home"><img style="height: 2rem; width: 4rem;" src="esewa.png" alt="" srcset=""></a>
+        <a href="#"><img style="height: 2rem; width: 4rem;" src="visa.png" alt="" srcset=""></a>
+        <a href="#"><img style="height: 2rem; width: 3rem;" src="mastercard.png" alt="" srcset=""></a>
+        <p>* Cash on deliverly also avalable ..</p>
+      
+      </div>
+  </section>
+ 
+  <footer>
+      <p>Copyright &copy; 2024<img src="logo.png" alt="logo"> All Rights Reserved.</p>
+  </footer>
+</div>
+  </body>
+</html>
