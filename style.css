@@ -141,6 +141,10 @@ footer img {
     border-color: transparent;
     margin-left: 20px;
 }
+.login a{
+    text-decoration: none;
+    color: white;
+}
 .shop-cart{
     border-color: transparent;
     background-color:transparent;
@@ -148,7 +152,7 @@ footer img {
 }
 .Items{
     margin-top: 2rem;
-    margin-left:2rem; 
+    margin-left:10rem; 
     display: flex;
     flex-wrap: wrap;
     flex-flow:column;
@@ -182,6 +186,9 @@ footer img {
     }
     #carouselExampleCaptions{
         height: 60vh;
+    }
+    .Items{
+        margin-left: 2rem;
     }
   }
   .service{
