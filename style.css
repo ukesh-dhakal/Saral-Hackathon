@@ -148,7 +148,7 @@ footer img {
 }
 .Items{
     margin-top: 2rem;
-    margin-left:10rem; 
+    margin-left:2rem; 
     display: flex;
     flex-wrap: wrap;
     flex-flow:column;
@@ -180,10 +180,13 @@ footer img {
     .best-sellers {
     display: none;
     }
+    #carouselExampleCaptions{
+        height: 60vh;
+    }
   }
   .service{
-    margin: 5rem;
+    margin: 3rem;
   }
   .aboutus{
-    margin: 5rem;
+    margin: 3rem;
   }
