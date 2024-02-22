@@ -197,3 +197,36 @@ footer img {
   .aboutus{
     margin: 3rem;
   }
+  #modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    z-index: 2;
+    padding: 40px;
+    border-radius: 10px;
+   
+}
+#modal button{
+    background-color: rgb(245, 89, 89);
+    margin-left: 8rem;
+    border-radius: 5px;
+    padding: 0.4rem 1rem;
+    font-family: sans-serif;
+    font-size: large;
+    color: #fff;
+}
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay for background blur */
+    z-index: 1;
+    backdrop-filter: blur(2px); 
+
+}
