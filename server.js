@@ -54,26 +54,7 @@ const items = [
   { name: 'Homemade Hing',  price: 'Rs.300',img: 'hing.jpg' ,description:'Unlocking aroma, enhancing taste: Delight in the essence of Hing.',item_no: 4, cart: 0 },
   { name: 'Fresh Vegetable',   price: 'Rs.300',img: '1.jpg' ,description:'Handpicked veggies from your local farmers..', item_no: 5, cart: 0 },
   { name: 'Homemade pickle', price: 'Rs.300',img: 'https://www.thegundruk.com/wp-content/uploads/2016/11/Tomato-pickle-with-radish-seeds-and-spices-under-sunlight-for-fermentation.jpg' ,description:'Hand made pickles made from radish and chillies...', item_no: 6, cart: 0 },
-  { name: 'Lumbini Academy Gyandeep Sikshya',item_no: 7, cart: 0 },
-  { name: 'Mnemonc Modern Academy',item_no: 8, cart: 0 },
-  { name: 'St. Lawrence College',item_no: 9, cart: 0 },
-  { name: 'MerryLand English School',item_no: 10, cart: 0 },
-  { name: 'Mokshda School',item_no: 11, cart: 0 },
-  { name: 'New Sunshine School',item_no: 12, cart: 0 },
-  { name: 'St. Lawrence Secondary School',item_no: 13, cart: 0 },
-  { name: 'Mission Public School',item_no: 14, cart: 0 },
-  { name: 'Texas Secondary School',item_no: 15, cart: 0 },
-  { name: 'VS.Niketan School',item_no: 16, cart: 0 },
-  { name: 'Tri-Jyoti Secondary School',item_no: 17, cart: 0 },
-  { name: 'The Celebration Co-Ed',item_no: 18, cart: 0 },
-  { name: 'Anmol Jyotui SEB School',item_no: 19, cart: 0 },
-  { name: 'Southwestern State Secondary School',item_no: 20, cart: 0 },
-  { name: 'Candidate 1',item_no: 21, cart: 0 },
-  { name: 'Candidate 2',item_no: 22, cart: 0 },
-  { name: 'Candidate 1',item_no: 23, cart: 0 },
-  { name: 'Candidate 2',item_no: 24, cart: 0 },
-  { name: 'Candidate 1',item_no: 25, cart: 0 },
-  { name: 'Candidate 2',item_no: 26, cart: 0 }
+
 ];
 
 io.on('connection', (socket) => {
